@@ -52,8 +52,8 @@ list in it:
 string U T F eight: 
 	insert("'utf8'")
 state past: "pass"
-zoom [in]: edit.zoom_in()
-zoom out: edit.zoom_out()
+# zoom [in]: edit.zoom_in()
+# zoom out: edit.zoom_out()
 (page | scroll) up: key(pgup)
 (page | scroll) [down]: key(pgdown)
 copy that: edit.copy()
@@ -72,6 +72,7 @@ play next: key(next)
 play previous: key(prev)
 (play | pause): key(play_pause)  
 wipe: key(backspace)
+delete: key(delete)
 (pad | padding): 
 	insert("  ") 
 	key(left)

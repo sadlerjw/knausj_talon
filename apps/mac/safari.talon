@@ -57,7 +57,7 @@ action(browser.reload_hard):
 #	key(cmd-shift-delete)
   
 action(browser.show_downloads):
-	key(cmd-shift-j)
+	key(cmd-alt-l)
 
 action(browser.show_extensions):
 	key(ctrl-shift-a)
@@ -72,3 +72,9 @@ action(browser.submit_form):
 
 action(browser.toggle_dev_tools):
 	key(cmd-alt-i)
+
+action(app.tab_next):
+	key(cmd-shift-right)
+
+action(app.tab_previous):
+	key(cmd-shift-left)

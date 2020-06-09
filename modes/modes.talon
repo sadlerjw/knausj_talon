@@ -21,7 +21,9 @@ talon mode: speech.enable()
     mode.disable("sleep")
     mode.disable("command")
     mode.enable("dictation")
-^command mode$:
+    app.notify("Dictation Mode")
+^(command|talon) mode$:
     mode.disable("sleep")
     mode.disable("dictation")
     mode.enable("command")
+    app.notify("Command Mode")
